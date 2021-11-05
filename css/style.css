@@ -1,0 +1,40 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+h2{
+    font-size: 6em;
+    font-weight: 500;
+    color: rgb(1, 41, 22);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+h2 span{
+    transition: 0.9s;
+
+}
+
+h2:hover span:nth-child(1)
+{
+       margin-right: 5px;
+}
+
+h2:hover span:nth-child(2)
+{
+       margin-left: 70px;
+}
+
+h2:hover span{
+    color: #AE600D;
+    text-shadow:0 0 10px #AE600D;
+    text-shadow: 0 0 20px #AE600D;
+    text-shadow:0 0 40px #AE600D;
+    text-shadow: 0 0 120px #AE600D;
+}
